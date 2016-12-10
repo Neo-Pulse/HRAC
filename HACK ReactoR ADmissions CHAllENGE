@@ -1,0 +1,15 @@
+//Hack Reactor Admissions Challenge
+//LIbnT
+var myArray = [];
+myArray = ["LibnT", "mail@mail.com"];
+
+function cutName (name){
+  var splitName = [];
+  splitName = name.split(" ");
+  return splitName;
+}
+var myData = { };
+myData.fullName = cutName(myArray[0]);
+myData.skype = myArray[1];
+myData.github = "LibnT";
+Admissions.showApp()
